@@ -1,7 +1,7 @@
 # 🛒 Retail Transactions Data Cleaning & Visualization
 
 
-## 📌 Project Overview
+##  📌 Project Overview
 
 This project focuses on cleaning, preprocessing, and visualizing a retail transactions dataset. The dataset contains 10,000+ transactions (a sample of 2000 is provided) with details about customers, purchases, and payment modes.
 
@@ -154,4 +154,10 @@ visualization.ipynb
 
 ✅ Jupyter Notebook → Preprocessing + Visualizations
 
+## EXPECTED LEARNING OUTCOMES
 
+- Understand real-world challenges in raw data.
+- Learn step-by-step data preprocessing techniques (cleaning, handling missing values, encoding, feature
+engineering).
+- Gain hands-on skills in data visualization for storytelling.
+- Build confidence in creating business-ready datasets for analysis
