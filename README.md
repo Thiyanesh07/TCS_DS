@@ -122,7 +122,7 @@ File: RETAIL_TRANSACTIONS_2000.csv
 
 1.Clone this repository:
 ```
-git clone https://
+git clone https://https://github.com/Thiyanesh07/TCS_DS
 cd retail-analysis
 ```
 
