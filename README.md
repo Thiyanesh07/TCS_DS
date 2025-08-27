@@ -11,29 +11,22 @@ The objective is to create a clean, analysis-ready dataset and generate visual d
 
 File: RETAIL_TRANSACTIONS_2000.csv
 
-Each row represents a transaction with the following columns:
 
-- TransactionID – Unique ID for each transaction
+| Column | Description |
+|--------|-------------|
+| TransactionID | Unique ID for each transaction |
+| CustomerID | Unique ID for customers |
+| Gender | Male / Female / Other |
+| Age | Age of customer |
+| City | City where purchase happened |
+| ProductCategory | Electronics, Fashion, Groceries, Furniture, etc. |
+| Quantity | Units purchased |
+| Price | Price per unit (₹) |
+| TotalAmount | Derived column (Quantity × Price) |
+| PurchaseDate | Date of purchase |
+| PaymentMode | Cash, Card, UPI, Wallet |
 
-- CustomerID – Unique ID for customers
-
-- Gender – Male/Female/Other
-
-- Age – Age of the customer
-
-- City – City where purchase happened
-
-- ProductCategory – Product category (Electronics, Fashion, Groceries, Furniture, etc.)
-
-- Quantity – Units purchased
-
-- Price – Price per unit (₹)
-
-- TotalAmount – Derived column (Quantity × Price)
-
-- PurchaseDate – Date of purchase
-
-- PaymentMode – Cash, Card, UPI, Wallet
+---
 
 ##⚡ Part A: Data Preprocessing
 
@@ -125,18 +118,24 @@ Each row represents a transaction with the following columns:
 
 - Plotly / Power BI / Tableau – Interactive dashboards (optional)
 
-### 🚀 How to Run
+## 🚀 How to Run
 
-Clone this repository:
+1.Clone this repository:
 ```
-git clone https://github.com/<your-username>/retail-analysis.git
+git clone https://
 cd retail-analysis
 ```
 
-Install required libraries:
+2. Install dependencies  
+```bash
+pip install -r requirements.txt
 ```
-pip install pandas numpy  matplotlib seaborn plotly
+
+3. Run preprocessing  & visualization
+```bash
+jupyter notebook tcs.ipynb
 ```
+
 
 
 Explore cleaned dataset:
@@ -155,4 +154,4 @@ visualization.ipynb
 
 ✅ Jupyter Notebook → Preprocessing + Visualizations
 
-✅ Dashboards → Key customer & sales insights
+
